@@ -16,4 +16,3 @@ FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-10
      && apt-get clean -y \
      && rm -rf /var/lib/apt/lists/*
   ENV DEBIAN_FRONTEND=dialog
-

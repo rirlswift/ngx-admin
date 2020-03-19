@@ -3,9 +3,9 @@
 {
 	"name": "Node.js 10",
 	"dockerFile": "Dockerfile",
-	
+
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
+	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 
@@ -18,7 +18,7 @@
 	"forwardPorts": [4200],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm -i",
+	// "postCreateCommand": "npm start",
 
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "node"
